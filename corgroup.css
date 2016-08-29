@@ -1,0 +1,324 @@
+
+/*     CSS RESET     */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+/*============================================FONTS=================================================*/
+.robot {
+    font-family: 'Roboto', sans-serif;
+}
+
+.robot-p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.25em;
+    line-height: 1.25em;
+    color: black;
+}
+
+.robot-p-project {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2em;
+    line-height: 1.25em;
+    color: black;
+}
+
+.robot-p-list {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.25em;
+    line-height: 1.25em;
+    color: black;
+    margin-left: .5em;
+}
+/*=======================================end of FONTS=================================================*/
+
+/*=======================================MISC=================================================*/
+#facebook {
+    width: 2.5em;
+    margin-top: -1.5em;
+}
+
+.footer {
+    height: 3em;
+}
+/*=======================================end of MISC=================================================*/
+
+/*=================Home===========================*/
+.banner {
+    height: 30vw;
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 3em;
+}
+
+#banner-image {
+    width: 90%;
+}
+
+.headline {
+    margin-top: 5em;
+    margin-left: -7em;
+    color: black;
+    text-align: center;
+}
+
+#big {
+    visibility: visible;
+    font-size: 2vw;
+}
+
+#small {
+    visibility: hidden;
+}
+
+.home-content {
+    margin-bottom: 3em;
+    width: 90%;
+}
+
+/*=======================end of Home===================*/
+
+/*=======================PROJECTS===================*/
+#project-image {
+    width: auto;
+    max-width: 100%;
+    margin-top: -25%;
+}
+
+#project-h1 {
+    text-align: center;
+    font-size: 2em;
+    margin-top: 1em;
+    margin-bottom: 1.5em;
+}
+
+.project-info {
+    text-align: center;
+    margin-bottom: 3em;
+}
+
+.project-buttons {
+    background-color: #e4e4e4;
+}
+
+#project-h2 {
+    text-align: left;
+    font-size: 2em;
+    margin-top: 3em;
+    text-decoration: underline;
+    height: inherit;
+    margin-bottom: 2em;
+    color: black;
+}
+
+#project-button {
+    width: 60%;
+    height: 5em;
+    margin-left: 20%;
+    margin-top: 3em;
+    margin-bottom: 3em;
+    background-image: url("../img/project-button.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-size: xx-large;
+    border-radius: .25em;
+}
+
+#expert {
+    width: 60%;
+    height: 5em;
+    margin-left: 20%;
+    /*margin-top: 3em;*/
+    background-image: url("../img/expert-button.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-size: xx-large;
+    border-radius: .25em;
+}
+
+#publications {
+    width: 60%;
+    height: 5em;
+    margin-left: 20%;
+    margin-top: 3em;
+    margin-bottom: 3em;
+    background-image: url("../img/publications.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-size: xx-large;
+    border-radius: .25em;
+}
+
+#projects div{
+    display:none; /*Hide all stories initially*/
+}
+
+#projects li{
+    margin-bottom: 1em;
+}
+
+#projects h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5em;
+    margin-bottom: .5em;
+}
+
+.gray-back {
+    background-color: #e4e4e4;
+}
+/*=======================end of PROJECTS===================*/
+
+
+
+@media all and (min-width: 1280px) and (max-width: 1550px) {
+    #big {
+        visibility: visible;
+        margin-bottom: 3vw;
+        margin-left: 3em;
+        font-size: xx-large;
+    }
+    #small {
+        visibility: hidden;
+    }
+    .banner {
+        width: 90%;
+        height: auto;
+        margin-left: 10%;
+    }
+    .home-content {
+        margin-left: 10%;
+        width: 80%;
+    }
+}
+
+@media all and (min-width: 1024px) and (max-width: 1280px) {
+    #big {
+        visibility: visible;
+        margin-bottom: 3vw;
+        margin-left: 3em;
+        font-size: xx-large;
+    }
+    #small {
+        visibility: hidden;
+    }
+    .banner {
+        width: 90%;
+        height: auto;
+        margin-left: 10%;
+    }
+    .home-content {
+        margin-left: 10%;
+        width: 80%;
+    }
+}
+
+@media all and (min-width: 768px) and (max-width: 1024px) {
+    #big {
+        visibility: hidden;
+    }
+    #small {
+        visibility: visible;
+        margin-bottom: 3vw;
+        margin-left: 4em;
+        font-size: xx-large;
+    }
+    .banner {
+        width: 90%;
+        height: auto;
+        margin-left: 10%;
+    }
+    .home-content {
+        margin-left: 10%;
+        width: 80%;
+    }
+}
+
+@media all and (min-width: 480px) and (max-width: 768px) {
+    #big {
+        visibility: hidden;
+    }
+    #small {
+        margin-bottom: 5vw;
+        margin-top: -3vw;
+        margin-left: 3em;
+        font-size: xx-large;
+        visibility: visible;
+    }
+    .banner {
+        width: 90%;
+        height: auto;
+        margin-left: 10%;
+    }
+    .home-content {
+        margin-left: 10%;
+        width: 85%;
+    }
+}
+
+@media all and (max-width: 480px) {
+    .banner {
+        height: auto;
+        width: 100%;
+    }
+    #banner-image {
+        margin-left: 1em;
+    }
+    #big {
+        visibility: hidden;
+    }
+    #small {
+        margin-bottom: 5vw;
+        margin-top: -3vw;
+        margin-left: 5em;
+        font-size: x-large;
+        visibility: visible;
+    }
+    .home-content {
+        font-size: 1em;
+        text-align: left;
+        margin-left: 1.25em;
+        width: 95%;
+    }
+}
+
+
