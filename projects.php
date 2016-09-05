@@ -70,9 +70,11 @@
         <a href="#publication-list"><button id="publications">Publications</button></a>
     </div>
 
+<a name="projects-list"></a>
+
 <div class="container">
     <div class="project-list">
-        <a name="projects-list" class="robot" id="project-h2"><h2>Projects</h2></a>
+        <h2 class="robot" id="project-h2">Projects</h2>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
         <ul id="projects">
         <li>
@@ -278,6 +280,8 @@
                 for an eight week series.</p></div>
         </li>
 
+            <a name="expert-witness"></a>
+
         <li>
             <h3>Manager/Creator</h3>
 
@@ -299,10 +303,11 @@
     </div>
 </div>
 
+
     <div class="project-buttons">
         <div class="expert-list container">
-            <a class="robot" id="project-h2" name="expert-witness"><h2>Expert Witness Cases</h2></a>
-            <ul id="projects">
+            <a class="robot" id="project-h2"><h2>Expert Witness Cases</h2></a>
+            <ul class="expert-white" id="projects">
 
                 <li>
                     <h3>Reginald Gafford v. Multnomah County</h3>
@@ -482,6 +487,8 @@
                         the assault. Acting as expert witness on behalf of the plaintiffs. Case status unknown.</p></div>
                 </li>
 
+                <a name="publication-list"></a>
+
                 <li>
                     <h3>Carrero v. Grayson Robinson</h3>
 
@@ -520,9 +527,11 @@
         </div>
     </div>
 
+
+
 <div class="container">
     <div class="publications-list">
-        <h2><a class="robot" id="project-h2" name="publication-list">Publications</a></h2>
+        <h2><a class="robot" id="project-h2">Publications</a></h2>
         <ul id="projects">
 
             <li>

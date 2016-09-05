@@ -116,6 +116,27 @@ table {
 /*=======================end of Home===================*/
 
 /*=======================PROJECTS===================*/
+
+.expert-list {
+    padding-top: 3em;
+}
+
+.expert-list ul {
+    margin-top: 3em;
+}
+
+.publications-list {
+    padding-top: 3em;
+}
+
+.publications-list ul {
+    margin-top: 3em;
+}
+
+.project-list ul {
+    margin-top: 3em;
+}
+
 #project-image {
     width: auto;
     max-width: 100%;
@@ -166,7 +187,6 @@ table {
     width: 60%;
     height: 5em;
     margin-left: 20%;
-    /*margin-top: 3em;*/
     background-image: url("../img/expert-button.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -194,7 +214,14 @@ table {
 }
 
 #projects li{
-    margin-bottom: 1em;
+    margin-bottom: 2em;
+}
+
+#projects li p {
+    background-color: #373737;
+    border-radius: .25em;
+    padding: .25em;
+    color: #fff;
 }
 
 #projects h3 {
@@ -206,6 +233,7 @@ table {
 .gray-back {
     background-color: #e4e4e4;
 }
+
 /*=======================end of PROJECTS===================*/
 
 
@@ -293,6 +321,34 @@ table {
         margin-left: 10%;
         width: 85%;
     }
+    /*                  projects                    */
+    .project-info {
+        margin-left: 1em;
+    }
+    #project-button {
+        margin-top: 2em;
+        margin-bottom: 1em;
+    }
+    #expert {
+        margin-top: 1em;
+        margin-bottom: 1em;
+    }
+    #publications {
+        margin-top: 1em;
+        margin-bottom: 2em;
+    }
+    #project-h2 {
+        text-align: center;
+    }
+    .publications-list {
+        text-align: center;
+    }
+    .publications-list ul {
+        text-align: left;
+    }
+    #projects li {
+        margin-top: 1.75em;
+    }
 }
 
 @media all and (max-width: 480px) {
@@ -318,6 +374,34 @@ table {
         text-align: left;
         margin-left: 1.25em;
         width: 95%;
+    }
+    /*                  projects                    */
+    .project-info {
+        margin-left: 1em;
+    }
+    #project-button {
+        margin-top: 2em;
+        margin-bottom: 1em;
+    }
+    #expert {
+        margin-top: 1em;
+        margin-bottom: 1em;
+    }
+    #publications {
+        margin-top: 1em;
+        margin-bottom: 2em;
+    }
+    #project-h2 {
+        text-align: center;
+    }
+    .publications-list {
+        text-align: center;
+    }
+    .publications-list ul {
+        text-align: left;
+    }
+    #projects li {
+        margin-top: 1.75em;
     }
 }
 
