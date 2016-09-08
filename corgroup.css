@@ -235,6 +235,78 @@ table {
 }
 
 /*=======================end of PROJECTS===================*/
+/*=======================About Us===================*/
+
+#about-h1 {
+    text-align: center;
+    font-size: 2em;
+    margin-top: 1em;
+    margin-bottom: 1.5em;
+}
+
+.about-banner img {
+    width: 75%;
+    margin-left: 12%;
+}
+
+#about-info {
+    margin-left: 7em;
+    margin-bottom: 5em;
+    width: 45em;
+}
+
+.about-table {
+    font-size: 1.35em;
+    margin-left: 6.1em;
+}
+
+.about-table td  {
+    padding-bottom: 1em;
+}
+
+.about-table-right {
+    font-size: 1.35em;
+    margin-left: 38em;
+    margin-top: -8em;
+}
+
+.about-table-right td {
+    padding-bottom: 1em;
+}
+
+.person-h2 {
+    margin-top: 8em;
+    margin-bottom: 2em;
+    text-align: center;
+    font-size: 1.85em;
+}
+
+#gene {
+    float: left;
+    margin-left: 7em;
+    width: 46em;
+}
+
+.person-break img {
+    height: 20em;
+    margin-left: 25em;
+    margin-bottom: 3.5em;
+}
+
+.person-break {
+    margin-top: 5em;
+    margin-bottom: 15em;
+}
+
+.person-nophoto {
+    margin-left: 8em;
+    margin-top: 5em;
+    margin-bottom: 10em;
+    width: 58em;
+}
+
+
+/*=======================end of ABout Us===================*/
 
 
 
