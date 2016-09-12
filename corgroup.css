@@ -1,4 +1,3 @@
-
 /*     CSS RESET     */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -311,6 +310,30 @@ table {
 
 
 /*=======================end of ABout Us===================*/
+/*=======================Contact Us===================*/
+
+.contact-info {
+    margin-left: 10em;
+    width: 50em;
+    text-align: center;
+}
+.contact-info p {
+    margin-bottom: 2em;
+}
+
+#contact-button {
+    width: 15em;
+    height: 2em;
+    font-size: 2em;
+    border-radius: .25em;
+    background-color: #d0d0d0;
+}
+
+#contact-button:active {
+    background-color: #769cb1;
+}
+
+/*=======================end of Contact Us===================*/
 
 
 
@@ -730,7 +753,6 @@ table {
     /*===============About Us===========*/
     #about-h1 {
         text-align: center;
-        font-size: 2em;
         margin-top: 1em;
         margin-bottom: 1.5em;
     }
@@ -739,21 +761,19 @@ table {
         margin-left: 12%;
     }
     #about-info {
-        margin-left: 4em;
+        margin-left: 3em;
         margin-bottom: 5em;
         width: 70%;
         text-align: left;
-        font-size: 1em;
+        font-size: 1.1em;
     }
     .about-table {
-        font-size: 1.35em;
         margin-left: 2em;
     }
     .about-table td  {
         padding-bottom: 1em;
     }
     .about-table-right {
-        font-size: 1.35em;
         margin-left: 2em;
         margin-top: .15em;
     }
@@ -764,33 +784,27 @@ table {
         margin-top: 8em;
         margin-bottom: 2em;
         text-align: center;
-        font-size: 1.85em;
     }
     .person-break img {
         height: 12em;
-        /*margin-left: 25em;*/
         margin-left: 18%;
-        margin-bottom: 3.5em;
+        margin-bottom: 5em;
     }
     #gene {
-        margin-left: 20%;
-        width: 14em;
-        font-size: 1em;
+        margin-left: 17%;
+        width: 12em;
+        font-size: 1.1em;
     }
     .person-break {
         margin-top: 5em;
-        margin-bottom: 15em;
     }
     .person-nophoto {
-        margin-left: 1em;
+        margin-left: 7%;
         margin-top: 5em;
-        margin-bottom: 10em;
-        width: 70%;
-        font-size: 1em;
+        margin-bottom: 1em;
+        width: 12em;
     }
     .person-nophoto p {
-        padding-bottom: 2em;
+        padding-bottom: 1em;
     }
 }
-
-
