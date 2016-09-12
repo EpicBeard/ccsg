@@ -299,10 +299,14 @@ table {
 }
 
 .person-nophoto {
-    margin-left: 8em;
+    margin-left: 0em;
     margin-top: 5em;
     margin-bottom: 10em;
     width: 58em;
+}
+
+.person-nophoto p {
+    margin-bottom: 1em;
 }
 
 
@@ -329,6 +333,68 @@ table {
         margin-left: 10%;
         width: 80%;
     }
+    /*===============About Us===========*/
+    #about-h1 {
+        text-align: center;
+        font-size: 2em;
+        margin-top: 1em;
+        margin-bottom: 1.5em;
+    }
+    .about-banner img {
+        width: 75%;
+        margin-left: 12%;
+    }
+    #about-info {
+        margin-left: 12%;
+        margin-bottom: 5em;
+        width: 75%;
+        font-size: 1em;
+    }
+    .about-table {
+        font-size: 1.35em;
+        margin-left: 6em;
+    }
+    .about-table td  {
+        padding-bottom: 1em;
+    }
+    .about-table-right {
+        font-size: 1.35em;
+        margin-left: 35em;
+        margin-top: -7.8em;
+    }
+    .about-table-right td {
+        padding-bottom: 1em;
+    }
+    .person-h2 {
+        margin-top: 8em;
+        margin-bottom: 2em;
+        margin-left: -9%;
+        font-size: 1.85em;
+    }
+    .person-break img {
+        height: 12em;
+        margin-left: 37%;
+        margin-bottom: 3.5em;
+    }
+    #gene {
+        margin-left: 12%;
+        width: 75%;
+        font-size: 1em;
+    }
+    .person-break {
+        margin-top: 5em;
+        margin-bottom: 15em;
+    }
+    .person-nophoto {
+        margin-left: 1%;
+        margin-top: 5em;
+        margin-bottom: 10em;
+        width: 100%;
+        font-size: 1em;
+    }
+    .person-nophoto p {
+        padding-bottom: 2em;
+    }
 }
 
 @media all and (min-width: 1024px) and (max-width: 1280px) {
@@ -350,6 +416,68 @@ table {
         margin-left: 10%;
         width: 80%;
     }
+    /*===============About Us===========*/
+    #about-h1 {
+        text-align: center;
+        font-size: 2em;
+        margin-top: 1em;
+        margin-bottom: 1.5em;
+    }
+    .about-banner img {
+        width: 75%;
+        margin-left: 12%;
+    }
+    #about-info {
+        margin-left: 12%;
+        margin-bottom: 5em;
+        width: 75%;
+        font-size: 1em;
+    }
+    .about-table {
+        font-size: 1.35em;
+        margin-left: 5em;
+    }
+    .about-table td  {
+        padding-bottom: 1em;
+    }
+    .about-table-right {
+        font-size: 1.35em;
+        margin-left: 5em;
+        margin-top: .15em;
+    }
+    .about-table-right td {
+        padding-bottom: 1em;
+    }
+    .person-h2 {
+        margin-top: 8em;
+        margin-bottom: 2em;
+        margin-left: -9%;
+        font-size: 1.85em;
+    }
+    .person-break img {
+        height: 12em;
+        margin-left: 35%;
+        margin-bottom: 3.5em;
+    }
+    #gene {
+        margin-left: 12%;
+        width: 75%;
+        font-size: 1em;
+    }
+    .person-break {
+        margin-top: 5em;
+        margin-bottom: 15em;
+    }
+    .person-nophoto {
+        margin-left: 1%;
+        margin-top: 5em;
+        margin-bottom: 10em;
+        width: 100%;
+        font-size: 1em;
+    }
+    .person-nophoto p {
+        padding-bottom: 2em;
+    }
 }
 
 @media all and (min-width: 768px) and (max-width: 1024px) {
@@ -370,6 +498,68 @@ table {
     .home-content {
         margin-left: 10%;
         width: 80%;
+    }
+    /*===============About Us===========*/
+    #about-h1 {
+        text-align: center;
+        font-size: 2em;
+        margin-top: 1em;
+        margin-bottom: 1.5em;
+    }
+    .about-banner img {
+        width: 75%;
+        margin-left: 12%;
+    }
+    #about-info {
+        margin-left: 12%;
+        margin-bottom: 5em;
+        width: 75%;
+        font-size: 1em;
+    }
+    .about-table {
+        font-size: 1.35em;
+        margin-left: 4em;
+    }
+    .about-table td  {
+        padding-bottom: 1em;
+    }
+    .about-table-right {
+        font-size: 1.35em;
+        margin-left: 4em;
+        margin-top: .15em;
+    }
+    .about-table-right td {
+        padding-bottom: 1em;
+    }
+    .person-h2 {
+        margin-top: 8em;
+        margin-bottom: 2em;
+        margin-left: -9%;
+        font-size: 1.85em;
+    }
+    .person-break img {
+        height: 12em;
+        margin-left: 32%;
+        margin-bottom: 3.5em;
+    }
+    #gene {
+        margin-left: 12%;
+        width: 75%;
+        font-size: 1em;
+    }
+    .person-break {
+        margin-top: 5em;
+        margin-bottom: 15em;
+    }
+    .person-nophoto {
+        margin-left: 1%;
+        margin-top: 5em;
+        margin-bottom: 10em;
+        width: 100%;
+        font-size: 1em;
+    }
+    .person-nophoto p {
+        padding-bottom: 2em;
     }
 }
 
@@ -420,6 +610,68 @@ table {
     }
     #projects li {
         margin-top: 1.75em;
+    }
+    /*===============About Us===========*/
+    #about-h1 {
+        text-align: center;
+        font-size: 2em;
+        margin-top: 1em;
+        margin-bottom: 1.5em;
+    }
+    .about-banner img {
+        width: 75%;
+        margin-left: 12%;
+    }
+    #about-info {
+        margin-left: 12%;
+        margin-bottom: 5em;
+        width: 75%;
+        font-size: 1em;
+    }
+    .about-table {
+        font-size: 1.35em;
+        margin-left: 4em;
+    }
+    .about-table td  {
+        padding-bottom: 1em;
+    }
+    .about-table-right {
+        font-size: 1.35em;
+        margin-left: 4em;
+        margin-top: .15em;
+    }
+    .about-table-right td {
+        padding-bottom: 1em;
+    }
+    .person-h2 {
+        margin-top: 8em;
+        margin-bottom: 2em;
+        margin-left: -9%;
+        font-size: 1.85em;
+    }
+    .person-break img {
+        height: 12em;
+        margin-left: 32%;
+        margin-bottom: 3.5em;
+    }
+    #gene {
+        margin-left: 12%;
+        width: 75%;
+        font-size: 1em;
+    }
+    .person-break {
+        margin-top: 5em;
+        margin-bottom: 15em;
+    }
+    .person-nophoto {
+        margin-left: 1%;
+        margin-top: 5em;
+        margin-bottom: 10em;
+        width: 100%;
+        font-size: 1em;
+    }
+    .person-nophoto p {
+        padding-bottom: 2em;
     }
 }
 
@@ -474,6 +726,70 @@ table {
     }
     #projects li {
         margin-top: 1.75em;
+    }
+    /*===============About Us===========*/
+    #about-h1 {
+        text-align: center;
+        font-size: 2em;
+        margin-top: 1em;
+        margin-bottom: 1.5em;
+    }
+    .about-banner img {
+        width: 75%;
+        margin-left: 12%;
+    }
+    #about-info {
+        margin-left: 4em;
+        margin-bottom: 5em;
+        width: 70%;
+        text-align: left;
+        font-size: 1em;
+    }
+    .about-table {
+        font-size: 1.35em;
+        margin-left: 2em;
+    }
+    .about-table td  {
+        padding-bottom: 1em;
+    }
+    .about-table-right {
+        font-size: 1.35em;
+        margin-left: 2em;
+        margin-top: .15em;
+    }
+    .about-table-right td {
+        padding-bottom: 1em;
+    }
+    .person-h2 {
+        margin-top: 8em;
+        margin-bottom: 2em;
+        text-align: center;
+        font-size: 1.85em;
+    }
+    .person-break img {
+        height: 12em;
+        /*margin-left: 25em;*/
+        margin-left: 18%;
+        margin-bottom: 3.5em;
+    }
+    #gene {
+        margin-left: 20%;
+        width: 14em;
+        font-size: 1em;
+    }
+    .person-break {
+        margin-top: 5em;
+        margin-bottom: 15em;
+    }
+    .person-nophoto {
+        margin-left: 1em;
+        margin-top: 5em;
+        margin-bottom: 10em;
+        width: 70%;
+        font-size: 1em;
+    }
+    .person-nophoto p {
+        padding-bottom: 2em;
     }
 }
 
