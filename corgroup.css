@@ -75,8 +75,12 @@ table {
 }
 
 .footer {
-    height: 3em;
+    height: 15px !important;
+    margin-top: inherit;
+    position: relative;
+    clear: both;
 }
+
 /*=======================================end of MISC=================================================*/
 
 /*=================Home===========================*/
@@ -327,10 +331,32 @@ table {
     font-size: 2em;
     border-radius: .25em;
     background-color: #d0d0d0;
+    margin-bottom: 3.5em;
 }
 
 #contact-button:active {
     background-color: #769cb1;
+}
+
+#text-block {
+    line-height: 2em;
+    width: 30em;
+    height: 3em;
+    border-radius: .25em;
+    border: .5px solid #515151;
+    margin-bottom: 1em;
+}
+
+#sub-button {
+    width: 50%;
+    height: 3em;
+    background-color: #b4b4b4;
+    border-radius: .25em;
+    font-size: 1.25em
+}
+
+#contact-title {
+    font-size: 2em;
 }
 
 /*=======================end of Contact Us===================*/
@@ -371,7 +397,6 @@ table {
         margin-left: 12%;
         margin-bottom: 5em;
         width: 75%;
-        font-size: 1em;
     }
     .about-table {
         font-size: 1.35em;
@@ -413,10 +438,12 @@ table {
         margin-top: 5em;
         margin-bottom: 10em;
         width: 100%;
-        font-size: 1em;
     }
     .person-nophoto p {
         padding-bottom: 2em;
+    }
+    #contact-button {
+        margin-bottom: 10em;
     }
 }
 
@@ -454,7 +481,6 @@ table {
         margin-left: 12%;
         margin-bottom: 5em;
         width: 75%;
-        font-size: 1em;
     }
     .about-table {
         font-size: 1.35em;
@@ -496,10 +522,24 @@ table {
         margin-top: 5em;
         margin-bottom: 10em;
         width: 100%;
-        font-size: 1em;
     }
     .person-nophoto p {
         padding-bottom: 2em;
+    }
+    /*=============================Contact==================================*/
+    .contact-info > p {
+        margin-left: -4%;
+        width: 85%;
+    }
+    #contact-button {
+        margin-left: -23%;
+        width: 50%;
+    }
+    #text-block {
+        width: 100%;
+    }
+    #sub-button {
+        margin-left: 25%;
     }
 }
 
@@ -537,7 +577,6 @@ table {
         margin-left: 12%;
         margin-bottom: 5em;
         width: 75%;
-        font-size: 1em;
     }
     .about-table {
         font-size: 1.35em;
@@ -579,10 +618,25 @@ table {
         margin-top: 5em;
         margin-bottom: 10em;
         width: 100%;
-        font-size: 1em;
     }
     .person-nophoto p {
         padding-bottom: 2em;
+    }
+    /*=============================Contact==================================*/
+    .contact-info > p {
+        margin-left: -5%;
+        width: 60%;
+    }
+    #contact-button {
+        margin-left: -48%;
+        width: 10em;
+        margin-bottom: 15em;
+    }
+    #text-block {
+        width: 100%;
+    }
+    #sub-button {
+        margin-left: 25%;
     }
 }
 
@@ -649,7 +703,6 @@ table {
         margin-left: 12%;
         margin-bottom: 5em;
         width: 75%;
-        font-size: 1em;
     }
     .about-table {
         font-size: 1.35em;
@@ -680,7 +733,7 @@ table {
     #gene {
         margin-left: 12%;
         width: 75%;
-        font-size: 1em;
+        font-size: 1.5em;
     }
     .person-break {
         margin-top: 5em;
@@ -691,10 +744,25 @@ table {
         margin-top: 5em;
         margin-bottom: 10em;
         width: 100%;
-        font-size: 1em;
     }
     .person-nophoto p {
         padding-bottom: 2em;
+    }
+    /*=============================Contact==================================*/
+    .contact-info {
+        margin-left: 14%;
+        width: 70%;
+        font-size: 1em;
+    }
+    #contact-button {
+        width: 8em;
+        margin-bottom: 10em;
+    }
+    #text-block {
+        width: 100%;
+    }
+    #sub-button {
+        margin-left: 25%;
     }
 }
 
@@ -765,7 +833,6 @@ table {
         margin-bottom: 5em;
         width: 70%;
         text-align: left;
-        font-size: 1.1em;
     }
     .about-table {
         margin-left: 2em;
@@ -806,5 +873,21 @@ table {
     }
     .person-nophoto p {
         padding-bottom: 1em;
+    }
+    /*=============================Contact==================================*/
+    .contact-info {
+        margin-left: 15%;
+        width: 70%;
+        font-size: .9em;
+    }
+    #contact-button {
+        width: 80%;
+        margin-bottom: 5em;
+    }
+    #text-block {
+        width: 100%;
+    }
+    #sub-button {
+        margin-left: 25%;
     }
 }
